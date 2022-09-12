@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                                /* navbar style */
+
+.navbar-brand h4 b{
+    color: navy;
+}
+.nav-link b{
+    color: navy;
+    padding: 15px 0;
+}
+.nav-link b:hover {
+    color: #f1c40f;
+    transition: 0.5s;
+}
+
+                                /* banner style */
+
+.banner{
+    background: url(./images/nordwood-themes-kRNZiGKtz48-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 87vh;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+.banner-content{
+    padding-top: 208px;
+    position: relative;
+}
+.banner-heading h3{
+    color: navy;
+    background: rgba(241, 196, 15, 0.8);
+    display: inline-block;
+    padding-right: 15px ;
+}
+.banner-passage{
+    color: navy;
+}
+.button1{
+    outline: none;
+    border: none;
+    background: navy;
+    color: white;
+    padding: 5px 10px;
+}
+.button1:hover{
+    color: navy;
+    background: white;
+    outline: 1px solid navy ;
+    box-shadow: 0,0,8px,0;
+    transition: 0.5s;
+}
+.button2{
+    outline: none;
+    border: none;
+    background: #f1c40f;
+    color: white;
+    padding: 5px 10px;
+}   
+.button2:hover{
+    color: #f1c40f;
+    outline: #f1c40f 1px solid;
+    background: white;
+    box-shadow: 0,0,8px,0;
+    transition: 0.5s;
+}
+                                    /* section1 style */
+                                   
+.section1{
+    background: url(./images/background.jpg) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    height: 325px;
+    position: relative;
+}      
+.section1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 128, 0.931);
+    overflow: hidden;
+   z-index: 1;
+}                              
+.section1-text .section1-passage{
+    font-size: 10px;
+}       
+.section1-box1{
+    padding-left: 100px;
+    /* text-align: center; */
+    padding-top: 50px;
+    text-align: center;
+
+}                      
+.section1-box2{
+    padding-left: 100px;
+}
+.section0-img img{
+   display: block;
+    position: absolute;
+    top: 660px;
+    left: 520px;
+    width: 60%;
+    height: 60%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.secttion1-heading{
+    text-align: right;
+    display: block;
+    z-index: 5;
+    color: #f1c40f; 
+}
+.section1-passage{
+    color:  #f1c40f;
+    display: block;
+    z-index: 6;
+}
+
+.icon-menu{
+    display: block;
+    z-index: 5;
+}
+#secttion1-heading{
+    display: block;
+    position: relative;
+    z-index: 5 !important;
+}
+.section1-bpassage{
+    font-size: 14px;
+    display: block;
+    position: relative;
+    z-index: 5 !important;
+    color: white;
+    padding-right: 100px;
+}
+.section1-box2 .icon-menu i{
+    color: rgb(67, 67, 129);
+}
+.section1-box1 .icon-menu i{
+    color: rgb(67, 67, 129);
+}
+                                    /* SECTION2 */
+
+.section2-containt{
+    /* margin-top: 400px; */
+    padding-top: 110px;
+}
+.yellow b{
+    color: #f1c40f !important;
+}
+.section2-containt h5{
+    color: navy !important;
+}
+#blue{
+    font-size: 13px !important;
+}
+.ticks{
+    font-size: 13px;
+}
+.ticks i{
+    color: #f1c40f;
+}
+                                        /* Section3 */
+
+#img-box1{   
+    padding-top: 230px; 
+}
+#img-box2{
+    padding-top: 210px;
+}
+.img-box-h6{
+    padding: 20px;
+    background:  rgba(0, 0, 128, 0.931);
+    color: #f1c40f;
+}
+.img-box-main{
+    background: url(./images/Side\ Site.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}                                       
+.img-box-main2{
+    background: url(./images/Side\ Site\ 2.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 20px;
+} 
+.img-box2-h6{
+    padding: 20px;
+    background:  rgba(0, 0, 128, 0.931);
+    color: #f1c40f;
+    padding-right: 237px;
+}
+.img-box-main3{
+    font-size: 13px;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url(./images/banner.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  position: relative;
+}
+.img-box-main3::before{
+    content: "";
+    display: block;
+    position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+    background:   rgba(0, 0, 128, 0.931);
+    z-index: 5;
+}
+.img-box3-h6{
+    color:  #f1c40f;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+#p1{
+    color: white;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.box-button{
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+
+                                        /* section4 */
+
+.section4-containts .bold {
+    font-size: 13px;
+    color:  #f1c40f;
+}                
+.section4-containts .section4-h{
+    color: navy;
+}             
+.section4-containts .section4-p{
+    font-size: 14px;
+}          
+#section4-p{
+    font-size: 14px;
+}
+
+#section4-inner-p{
+    font-size: 14px;
+    padding: 10px;
+}
+.section-box{
+    outline: 0.1px solid lightslategray;
+    position: relative;
+}
+
+                            /* section5 */
+
+.box-img img{
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    z-index: 3;
+    top: -50px;    
+    left: 235px;
+}
+.name p{
+    color: navy;
+}
+.section-image{
+    padding-top: 70px;  
+
+}
+
+.section5 {
+    color: black;
+    background: url(./images/cherrydeck-rMILC1PIwM0-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.section5::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #f1c40fcc;
+    z-index: 4;
+}
+.section5-box{
+    position: relative;
+    display: block;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 500px; */
+}
+
+                                    /* section6 */
+
+.section6-card .icons i{
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    background: navy;
+    line-height: normal;
+}
+.section6-conatints p{
+    font-size: 14px;
+}
+.cards:hover{
+ outline: 1px solid lightgray;
+ cursor: pointer;
+ transition: 0.5s;
+ box-shadow: -8px 0px 3px 0.4px rgb(241, 196, 15);
+
+}
+
+.cards:hover i{
+    background:  #f1c40f;
+    transition: 0.5s;
+  
+}
+.section6-heading{
+    color: navy;
+}
+                                        /* section7 */
+
+
+.section7-p{
+    font-size: 14px;
+    color: white;
+    position: relative;
+}                
+.section-7-heading{
+    position: relative;
+    display: block;
+    color: white;
+}               
+.section7-pa{
+    color:  #f1c40fcc;
+}         
+.form-group{
+    position: relative;
+}
+.label{
+    color: white;
+}
+#button{
+    color: white !important;
+    background:  #f1c40f !important;
+    outline: none  ;
+    border: 1px solid  #f1c40f;
+}
+.section7{
+background: url(./images/Side\ Site.jpg) no-repeat top center;
+background-size: cover;
+position: relative;
+/* color:   rgba(0, 0, 128, 0.931); */
+}
+.section7::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 128, 0.931);
+}
+
+                                    /* section8 */
+
+.section8 .news p{
+    font-size: 14px;
+}              
+.section8 .news h4{
+    color: navy;
+}
+                                    /* section9 */
+
+.section9-button{
+    padding-left: 390px;
+    /* position: relative; */
+}              
+.section9-card::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:  rgba(0, 0, 128, 0.931);
+
+}
+.section9-button .btn{
+    font-size: 14px;
+    color:  #f1c40f;
+    display: block;
+    position: relative;
+    z-index: 4;
+}     
+.section9-button .btn:hover{
+    color: white;
+    outline: 1px solid white;
+    transition: 0.5s;
+}
+.section9-h {
+    display: block;
+    position: relative;
+    z-index: 5;
+    color:  #f1c40f;
+} 
+.section9-p{
+    display: block;
+    position: relative;
+    z-index: 4;
+    color: white;
+}
+.section9-card{
+    font-size: 14px;
+    background: url(./images/banner.jpg) no-repeat top center;
+    background-size: cover;
+    display: block;
+    position: relative;
+
+}                
+.section9-first-half img{
+    width: 260px;
+    height: 180px;
+}
+.section9-second-half img{
+    width: 260px;
+    height: 180px;
+}
+.section9-image img{
+    height: 433px;
+}   
+
+                                /* section10 */
+
+
+.section10-text p{
+    font-size: 14px;
+}
+.section10-button{
+    margin-left: 250px;
+}
+.section10-text h3{
+    color: navy;
+}
+#pass{
+    color: #f1c40f;
+}
+
+                                /* section11 */
+.section11-img{
+    position: relative;
+    cursor: pointer;
+
+}
+/* .section11-img img{
+    position: relative;
+} */
+.section11-img::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 128, 0.931);
+    z-index: 6;
+    opacity: 0;
+}
+.section11-img:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+    box-shadow: 0px 2px 6px 1px black;
+}
+.section11-img:hover button{
+    opacity: 3;
+    display: block;
+    z-index: 10;
+    /* transition: 0.5s; */
+}
+.section11-img button{
+    display: block;
+    position: absolute;
+    /* top: px; */
+    left: 185px;
+    bottom: 60px;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    opacity: 0;
+}
+.section11-images h5{
+    color: navy;
+}
+.section11-images p{
+    font-size: 14px;
+    color: rgb(139, 134, 134);
+}
+.section11-icons {
+    display: block;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 185px;
+    bottom: 120px;
+    z-index: 10;
+
+}
+.section11-icons i{
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+}
+/* .section11-icons:hover {
+    opacity: 1;
+    margin-bottom: 5px;
+    transition: 0.5s;
+} */
+.section11-img:hover .section11-icons i{
+    opacity: 1;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+                                                /* section12 */
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}                                                
+#input-area{
+    padding-right: 52px;
+}
+.main-form{
+    background: url(./images/campaign-creators-gMsnXqILjp4-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+.main-form::before{
+    content: "";
+    display: block;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 128, 0.931);
+    z-index: 4;
+}
+.main-form #help{
+    color:  #f1c40f;
+    font-size: 12px;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.main-form h3{
+    color: white;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.form-group label   {
+    color: white;
+   
+}
+.form-group .label{
+    color: white;
+} 
+.form-group{
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.main-form .text-area{
+    display: block;
+    position: relative;
+    z-index: 6;
+}
+.main-form button{
+    color: white;
+    background:  #f1c40f;
+    outline: none;
+    border: 1px solid  #f1c40f;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.section12-contact-list{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.section12-icons{
+    color: white;
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+.section12-container{
+    background: url(./images/newyork\ map.jpg) no-repeat top center;
+    background-size:cover ;
+}
+.location{
+    margin-left: 460px;
+    margin-top: 200px;
+}
+.location i{
+    font-size: 100px;
+    color: #e84118;
+    /* box-shadow: 4px 0 2px 5px black; */
+}
+
+                                            /* section13 */
+
+.section13{
+    background: rgb(2, 2, 70);
+}
+.section13-containts h4{
+    color:  #f1c40f;
+}
+.section13-containts p{
+    color: white;
+    font-size: 14px;
+}
+
+                                            /* section14 */
+
+
+.section14-containts p{
+    font-size: 14px;
+    color: white;
+}                  
+.section14-containts1 p{
+    font-size: 14px;
+    color: white;
+}   
+.section14-containts1 h4{
+    color:  #f1c40f    ;
+}
+.section14-containts2 h4{
+    color:  #f1c40f ;
+}
+.foot a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}               
+.section14-containts3 p{
+    font-size: 14px;
+    color: white;
+}      
+.section14-containts3 h4{
+    color:  #f1c40f ;
+}  
+.section14-containt4 p{
+    font-size: 14px;
+    color: white;
+}
+.section14-containt4 h4{
+    color:  #f1c40f ;
+}
+.section14{
+    background: navy;
+}
+.section14-containt4 button{
+    background:  #f1c40f  ;
+    border: 1px solid   #f1c40f ;
+    color: white;
+}
+.section14-containt4 button:hover{
+    background: white;
+    color: #f1c40f;
+    transition: 0.5s;
+}
+
+
+
+
+.section15{
+    background:  rgb(2, 2, 70);
+}
+.last-line p{
+    font-size: 14px;
+    color: white;
+}
+.last-line p i{
+    color: #f1c40f;
+}
