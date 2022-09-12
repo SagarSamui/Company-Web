@@ -1,0 +1,18 @@
+@media screen and (max-width:1280px){
+    .section0-img img{
+        left: 410px;
+        width: 50%;
+        height: 50%;
+        
+    }
+    .secttion1-heading{
+        /* font-size: 10px; */
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+} xxl
+@media screen and (max-width:1038px){} xl
+@media screen and (max-width:992px){} lg
+@media screen and (max-width:768px){} md
+@media screen and (max-width:576px){} sm
+@media screen and (max-width:480px){} xs
